@@ -599,6 +599,7 @@ section > article {
   width: 100vw;
   display: flex;
   justify-content: flex-end;
+  margin-right: -35px;
 }
 .btn-post {
   width: 80px;
