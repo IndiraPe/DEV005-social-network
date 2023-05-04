@@ -1,15 +1,17 @@
+import vaca from '../img/vaca1_480.png';
+import gg from '../img/G.png';
 import { buttonLoginG } from '../lib/LoginGoogle';
 import { buttonRegister } from '../lib/RegisterEmail';
 
 const Register = (navigateTo) => {
   const viewRegister = `
   <h1 id="tittleLogo-2">Frikis del Espacio</h1>
-  <img id="logo-2" src= "./img/vaca1_480.png" alt="Imagen del logo"/>  
+  <img id="logo-2" src= "${vaca}" alt="Imagen del logo"/>  
     <div class="register">
       <h1 class="tittleFrikis">Frikis Del Espacio</h1>
-      <img class="logoSmall" src="./img/vaca1_480.png" alt="Vaca abducida por alien"/>
+      <img class="logoSmall" src="${vaca}" alt="Vaca abducida por alien"/>
       <div class="container-register">
-        <button class="btnG"><img src="./img/G.png" alt="Ícono de google"/><span>Continúa con Google</span></button>
+        <button class="btnG"><img src="${gg}" alt="Ícono de google"/><span>Continúa con Google</span></button>
         <p class="or"><span class="line"></span><span>o</span><span class="line"></span></p>
         <form id=formRegister>
           <label for="inputEmail">EMAIL</label>

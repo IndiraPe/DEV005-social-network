@@ -1,18 +1,20 @@
+import vaca from '../img/vaca1_480.png';
+import goog from '../img/google.png';
 import { buttonLoginG } from '../lib/LoginGoogle';
 import { buttonLogin } from '../lib/LoginEmail';
 
 const Login = (navigateTo) => {
   const viewLogin = `
     <h1 id="tittleLogo-2">Frikis del Espacio</h1>
-    <img id="logo-2" src= "./img/vaca1_480.png" alt="Imagen del logo"/>  
+    <img id="logo-2" src= "${vaca}" alt="Imagen del logo"/>  
       <div class="login-view">
         <div id="container-logo">
-          <img src="./img/vaca1_480.png" alt="Imagen del Logo" id="logo" />
+          <img src="${vaca}" alt="Imagen del Logo" id="logo" />
           <h1 class="tittle-login" id="title">Frikis Del Espacio</h1>
         </div>
         <div class="container-login">
           <button id="button-google" class="btn">
-            <img src="./img/google.png" alt="Imagen de Google" id="logo-google" />
+            <img src="${goog}" alt="Imagen de Google" id="logo-google" />
             Continúa con Google
           </button>
           <div id="bars">

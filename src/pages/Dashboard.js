@@ -9,13 +9,16 @@ import {
   likePost,
   dislikePost,
 } from '../lib/firebase.js';
+import vaca2 from '../img/vaca2.png';
+import alien from '../img/imgAlienDashboard.png';
+import ovni from '../img/ovni.gif';
 
 const Dashboard = (navigateTo) => {
   const viewDashboard = `
     <div id="headerDashboard">
       <h1 class="tittle-dashboard">Frikis Del Espacio</h1>
       <article id= "LogOut">
-        <img id="logoSignOut" src= "./img/vaca2.png" alt="Imagen  "/>
+        <img id="logoSignOut" src= "${vaca2}" alt="Imagen  "/>
         <button id ="button-signOut">Cerrar Sesión</button>
       </article>
     </div>
@@ -24,7 +27,7 @@ const Dashboard = (navigateTo) => {
     <div id="profile">
     <div id="circleAlien">
       <div id= "circleAlien2">
-        <img id="imgAlien" src= "./img/imgAlienDashboard.png" alt="Imagen de Alien "/>
+        <img id="imgAlien" src= "${alien}" alt="Imagen de Alien "/>
       </div>
     </div>
     <span id= "userName"> Gabriela79 </span>
@@ -42,7 +45,7 @@ const Dashboard = (navigateTo) => {
       <div class="box-gradient">
         <div id="postPublic">
           <span class="loading">Cargando...</span>
-          <img id="ovniL" src= "./img/ovni.gif" alt="Ovni girando"/>
+          <img id="ovniL" src= "${ovni}" alt="Ovni girando"/>
         </div>
       </div>    
     </div>
