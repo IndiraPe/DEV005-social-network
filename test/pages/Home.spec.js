@@ -3,6 +3,18 @@
  */
 import Home from '../../src/pages/Home.js';
 
+jest.mock('../../src/images.js', () => ({
+  logo404: '',
+  luna: '',
+  vaca: '',
+  goog: '',
+  gg: '',
+  vaca2: '',
+  alien: '',
+  ovni: '',
+  github: '',
+}));
+
 describe('Home', () => {
   it('debería ser una función', () => {
     expect(typeof Home).toBe('function');

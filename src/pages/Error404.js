@@ -1,5 +1,4 @@
-import logo404 from '../img/404logo.png';
-import luna from '../img/imgLuna.png';
+import { logo404, luna } from '../images.js';
 import Footer from '../templates/Footer';
 
 const Error404 = () => {
@@ -10,8 +9,6 @@ const Error404 = () => {
     <img id="alien2" src="${luna}" alt="Imagen del Alien con la Luna"/>     
   </article>
     `;
-  // const root = document.getElementById('root');
-  // root.innerHTML = viewError;
   const mainError = document.createElement('div');
   mainError.classList.add('main-error');
   mainError.innerHTML = viewError;

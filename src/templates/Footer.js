@@ -1,4 +1,4 @@
-import github from '../img/github.png';
+import { github } from '../images.js';
 
 const Footer = () => {
   const viewFooter = `

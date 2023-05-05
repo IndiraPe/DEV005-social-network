@@ -27,7 +27,7 @@ exports[`Dashboard snapshot of Dashboard 1`] = `
         <img
           alt="Imagen  "
           id="logoSignOut"
-          src="./img/vaca2.png"
+          src=""
         />
         
         
@@ -68,7 +68,7 @@ exports[`Dashboard snapshot of Dashboard 1`] = `
           <img
             alt="Imagen de Alien "
             id="imgAlien"
-            src="./img/imgAlienDashboard.png"
+            src=""
           />
           
       
@@ -159,7 +159,7 @@ exports[`Dashboard snapshot of Dashboard 1`] = `
           <img
             alt="Ovni girando"
             id="ovniL"
-            src="./img/ovni.gif"
+            src=""
           />
           
         

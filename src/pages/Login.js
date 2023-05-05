@@ -1,5 +1,4 @@
-import vaca from '../img/vaca1_480.png';
-import goog from '../img/google.png';
+import { vaca, goog } from '../images.js';
 import { buttonLoginG } from '../lib/LoginGoogle';
 import { buttonLogin } from '../lib/LoginEmail';
 
@@ -85,7 +84,6 @@ const Login = (navigateTo) => {
     }
     buttonLogin(passwordValue, emailValue)
       .then((user) => {
-        console.log(user.nameUser);
         if (user.nameUser) {
           navigateTo('/dashboard');
         }

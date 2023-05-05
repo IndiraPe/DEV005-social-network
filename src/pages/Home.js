@@ -1,4 +1,4 @@
-import vaca from '../img/vaca1_480.png';
+import { vaca } from '../images.js';
 
 const Home = (navigateTo) => {
   const viewHome = `

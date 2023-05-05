@@ -19,7 +19,7 @@
   padding: 0;
 }
 body {
-  background-image: url(/img/imgFondo.jpg);
+  background-image: url(/assets/imgFondo.aeec5659.jpg);
   background-position: center;
   background-size: 100% 100%;
   background-attachment: fixed;
@@ -1205,7 +1205,6 @@ section > article {
   #border-textArea {
     width: 93%;
     margin-left: 1%;
-    position: relative;
   }
   #container-btn {
     transform: scale(1.5);

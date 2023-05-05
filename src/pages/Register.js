@@ -1,5 +1,4 @@
-import vaca from '../img/vaca1_480.png';
-import gg from '../img/G.png';
+import { vaca, gg } from '../images.js';
 import { buttonLoginG } from '../lib/LoginGoogle';
 import { buttonRegister } from '../lib/RegisterEmail';
 
@@ -75,9 +74,9 @@ const Register = (navigateTo) => {
     }
     buttonRegister(passwordValue, emailValue)
       .then((user) => {
-        console.log(user.nameUser);
+        // console.log(user.nameUser);
         if (user.nameUser) {
-          console.log(user.nameUser);
+        //  console.log(user.nameUser);
           navigateTo('/dashboard');
         }
       })
